@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063324B01F3C799D006A262D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324AF1F3C799D006A262D /* main.m */; };
+		063324B31F3C799D006A262D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324B21F3C799D006A262D /* AppDelegate.m */; };
+		063324B61F3C799D006A262D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324B51F3C799D006A262D /* ViewController.m */; };
+		063324B91F3C799D006A262D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063324B71F3C799D006A262D /* Main.storyboard */; };
+		063324BB1F3C799D006A262D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063324BA1F3C799D006A262D /* Assets.xcassets */; };
+		063324BE1F3C799D006A262D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063324BC1F3C799D006A262D /* LaunchScreen.storyboard */; };
+		063324C91F3C799D006A262D /* NeoCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324C81F3C799D006A262D /* NeoCodeChallengeTests.m */; };
+		063324D41F3C799D006A262D /* NeoCodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324D31F3C799D006A262D /* NeoCodeChallengeUITests.m */; };
+		06EF20421F409A2E00E6E317 /* NetworkingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20411F409A2E00E6E317 /* NetworkingConstants.m */; };
+		87EDB822718939018CC4798E /* libPods-NeoCodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDA49382729AF3E74CE882F /* libPods-NeoCodeChallenge.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		063324C51F3C799D006A262D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063324A31F3C799D006A262D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063324AA1F3C799D006A262D;
+			remoteInfo = NeoCodeChallenge;
+		};
+		063324D01F3C799D006A262D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063324A31F3C799D006A262D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063324AA1F3C799D006A262D;
+			remoteInfo = NeoCodeChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063324AB1F3C799D006A262D /* NeoCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		063324AF1F3C799D006A262D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		063324B11F3C799D006A262D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		063324B21F3C799D006A262D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		063324B41F3C799D006A262D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		063324B51F3C799D006A262D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		063324B81F3C799D006A262D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		063324BA1F3C799D006A262D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		063324BD1F3C799D006A262D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		063324BF1F3C799D006A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063324C41F3C799D006A262D /* NeoCodeChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoCodeChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		063324C81F3C799D006A262D /* NeoCodeChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoCodeChallengeTests.m; sourceTree = "<group>"; };
+		063324CA1F3C799D006A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063324CF1F3C799D006A262D /* NeoCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		063324D31F3C799D006A262D /* NeoCodeChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoCodeChallengeUITests.m; sourceTree = "<group>"; };
+		063324D51F3C799D006A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06EF20401F409A2E00E6E317 /* NetworkingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConstants.h; sourceTree = "<group>"; };
+		06EF20411F409A2E00E6E317 /* NetworkingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConstants.m; sourceTree = "<group>"; };
+		47BC29C16F26B5C8FD4978DF /* Pods-NeoCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeoCodeChallenge/Pods-NeoCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		5C5B38685751930107EDFF1E /* Pods-NeoCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeoCodeChallenge/Pods-NeoCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDA49382729AF3E74CE882F /* libPods-NeoCodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeoCodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063324A81F3C799D006A262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EDB822718939018CC4798E /* libPods-NeoCodeChallenge.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063324C11F3C799D006A262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063324CC1F3C799D006A262D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063324A21F3C799D006A262D = {
+			isa = PBXGroup;
+			children = (
+				063324AD1F3C799D006A262D /* NeoCodeChallenge */,
+				063324C71F3C799D006A262D /* NeoCodeChallengeTests */,
+				063324D21F3C799D006A262D /* NeoCodeChallengeUITests */,
+				063324AC1F3C799D006A262D /* Products */,
+				E890229106F7D88C936EAEBB /* Pods */,
+				D13A5E90D1F0C9168A6C5944 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		063324AC1F3C799D006A262D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063324AB1F3C799D006A262D /* NeoCodeChallenge.app */,
+				063324C41F3C799D006A262D /* NeoCodeChallengeTests.xctest */,
+				063324CF1F3C799D006A262D /* NeoCodeChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063324AD1F3C799D006A262D /* NeoCodeChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				06EF203F1F4096A600E6E317 /* Utils */,
+				06EF203E1F4096A100E6E317 /* Views */,
+				06EF203D1F4095C100E6E317 /* Storyboards */,
+				06EF203C1F4095B700E6E317 /* Networking */,
+				06EF203B1F4095AF00E6E317 /* Models */,
+				06EF203A1F4095A600E6E317 /* Controllers */,
+				06EF20381F40959100E6E317 /* Constants */,
+				06EF20371F408F9700E6E317 /* AppDelegate */,
+				063324AE1F3C799D006A262D /* Supporting Files */,
+			);
+			path = NeoCodeChallenge;
+			sourceTree = "<group>";
+		};
+		063324AE1F3C799D006A262D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				063324BA1F3C799D006A262D /* Assets.xcassets */,
+				063324BC1F3C799D006A262D /* LaunchScreen.storyboard */,
+				063324BF1F3C799D006A262D /* Info.plist */,
+				063324AF1F3C799D006A262D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		063324C71F3C799D006A262D /* NeoCodeChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				063324C81F3C799D006A262D /* NeoCodeChallengeTests.m */,
+				063324CA1F3C799D006A262D /* Info.plist */,
+			);
+			path = NeoCodeChallengeTests;
+			sourceTree = "<group>";
+		};
+		063324D21F3C799D006A262D /* NeoCodeChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				063324D31F3C799D006A262D /* NeoCodeChallengeUITests.m */,
+				063324D51F3C799D006A262D /* Info.plist */,
+			);
+			path = NeoCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		06EF20371F408F9700E6E317 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				063324B11F3C799D006A262D /* AppDelegate.h */,
+				063324B21F3C799D006A262D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		06EF20381F40959100E6E317 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				06EF20401F409A2E00E6E317 /* NetworkingConstants.h */,
+				06EF20411F409A2E00E6E317 /* NetworkingConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		06EF203A1F4095A600E6E317 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		06EF203B1F4095AF00E6E317 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06EF20431F40A9A900E6E317 /* Common */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		06EF203C1F4095B700E6E317 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		06EF203D1F4095C100E6E317 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				063324B71F3C799D006A262D /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		06EF203E1F4096A100E6E317 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				063324B41F3C799D006A262D /* ViewController.h */,
+				063324B51F3C799D006A262D /* ViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		06EF203F1F4096A600E6E317 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		06EF20431F40A9A900E6E317 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D13A5E90D1F0C9168A6C5944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA49382729AF3E74CE882F /* libPods-NeoCodeChallenge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E890229106F7D88C936EAEBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C5B38685751930107EDFF1E /* Pods-NeoCodeChallenge.debug.xcconfig */,
+				47BC29C16F26B5C8FD4978DF /* Pods-NeoCodeChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063324AA1F3C799D006A262D /* NeoCodeChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063324D81F3C799D006A262D /* Build configuration list for PBXNativeTarget "NeoCodeChallenge" */;
+			buildPhases = (
+				7E800A731261553F539C3C00 /* [CP] Check Pods Manifest.lock */,
+				063324A71F3C799D006A262D /* Sources */,
+				063324A81F3C799D006A262D /* Frameworks */,
+				063324A91F3C799D006A262D /* Resources */,
+				A30F39ACEE6CA09768C205EB /* [CP] Embed Pods Frameworks */,
+				414897F2CF4512DB15F4C7D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoCodeChallenge;
+			productName = NeoCodeChallenge;
+			productReference = 063324AB1F3C799D006A262D /* NeoCodeChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		063324C31F3C799D006A262D /* NeoCodeChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063324DB1F3C799D006A262D /* Build configuration list for PBXNativeTarget "NeoCodeChallengeTests" */;
+			buildPhases = (
+				063324C01F3C799D006A262D /* Sources */,
+				063324C11F3C799D006A262D /* Frameworks */,
+				063324C21F3C799D006A262D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063324C61F3C799D006A262D /* PBXTargetDependency */,
+			);
+			name = NeoCodeChallengeTests;
+			productName = NeoCodeChallengeTests;
+			productReference = 063324C41F3C799D006A262D /* NeoCodeChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		063324CE1F3C799D006A262D /* NeoCodeChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063324DE1F3C799D006A262D /* Build configuration list for PBXNativeTarget "NeoCodeChallengeUITests" */;
+			buildPhases = (
+				063324CB1F3C799D006A262D /* Sources */,
+				063324CC1F3C799D006A262D /* Frameworks */,
+				063324CD1F3C799D006A262D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063324D11F3C799D006A262D /* PBXTargetDependency */,
+			);
+			name = NeoCodeChallengeUITests;
+			productName = NeoCodeChallengeUITests;
+			productReference = 063324CF1F3C799D006A262D /* NeoCodeChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063324A31F3C799D006A262D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maila  Manzur";
+				TargetAttributes = {
+					063324AA1F3C799D006A262D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Q869SK4UT6;
+						ProvisioningStyle = Automatic;
+					};
+					063324C31F3C799D006A262D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 063324AA1F3C799D006A262D;
+					};
+					063324CE1F3C799D006A262D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 063324AA1F3C799D006A262D;
+					};
+				};
+			};
+			buildConfigurationList = 063324A61F3C799D006A262D /* Build configuration list for PBXProject "NeoCodeChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 063324A21F3C799D006A262D;
+			productRefGroup = 063324AC1F3C799D006A262D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063324AA1F3C799D006A262D /* NeoCodeChallenge */,
+				063324C31F3C799D006A262D /* NeoCodeChallengeTests */,
+				063324CE1F3C799D006A262D /* NeoCodeChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063324A91F3C799D006A262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063324BE1F3C799D006A262D /* LaunchScreen.storyboard in Resources */,
+				063324BB1F3C799D006A262D /* Assets.xcassets in Resources */,
+				063324B91F3C799D006A262D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063324C21F3C799D006A262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063324CD1F3C799D006A262D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		414897F2CF4512DB15F4C7D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoCodeChallenge/Pods-NeoCodeChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E800A731261553F539C3C00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A30F39ACEE6CA09768C205EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeoCodeChallenge/Pods-NeoCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063324A71F3C799D006A262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063324B61F3C799D006A262D /* ViewController.m in Sources */,
+				06EF20421F409A2E00E6E317 /* NetworkingConstants.m in Sources */,
+				063324B31F3C799D006A262D /* AppDelegate.m in Sources */,
+				063324B01F3C799D006A262D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063324C01F3C799D006A262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063324C91F3C799D006A262D /* NeoCodeChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063324CB1F3C799D006A262D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063324D41F3C799D006A262D /* NeoCodeChallengeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		063324C61F3C799D006A262D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063324AA1F3C799D006A262D /* NeoCodeChallenge */;
+			targetProxy = 063324C51F3C799D006A262D /* PBXContainerItemProxy */;
+		};
+		063324D11F3C799D006A262D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063324AA1F3C799D006A262D /* NeoCodeChallenge */;
+			targetProxy = 063324D01F3C799D006A262D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		063324B71F3C799D006A262D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063324B81F3C799D006A262D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		063324BC1F3C799D006A262D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063324BD1F3C799D006A262D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063324D61F3C799D006A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		063324D71F3C799D006A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		063324D91F3C799D006A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5B38685751930107EDFF1E /* Pods-NeoCodeChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q869SK4UT6;
+				INFOPLIST_FILE = NeoCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maila.NeoCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		063324DA1F3C799D006A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47BC29C16F26B5C8FD4978DF /* Pods-NeoCodeChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q869SK4UT6;
+				INFOPLIST_FILE = NeoCodeChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maila.NeoCodeChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		063324DC1F3C799D006A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeoCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maila.NeoCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoCodeChallenge.app/NeoCodeChallenge";
+			};
+			name = Debug;
+		};
+		063324DD1F3C799D006A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeoCodeChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maila.NeoCodeChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeoCodeChallenge.app/NeoCodeChallenge";
+			};
+			name = Release;
+		};
+		063324DF1F3C799D006A262D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeoCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maila.NeoCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeoCodeChallenge;
+			};
+			name = Debug;
+		};
+		063324E01F3C799D006A262D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeoCodeChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maila.NeoCodeChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NeoCodeChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063324A61F3C799D006A262D /* Build configuration list for PBXProject "NeoCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063324D61F3C799D006A262D /* Debug */,
+				063324D71F3C799D006A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063324D81F3C799D006A262D /* Build configuration list for PBXNativeTarget "NeoCodeChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063324D91F3C799D006A262D /* Debug */,
+				063324DA1F3C799D006A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063324DB1F3C799D006A262D /* Build configuration list for PBXNativeTarget "NeoCodeChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063324DC1F3C799D006A262D /* Debug */,
+				063324DD1F3C799D006A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063324DE1F3C799D006A262D /* Build configuration list for PBXNativeTarget "NeoCodeChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063324DF1F3C799D006A262D /* Debug */,
+				063324E01F3C799D006A262D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 063324A31F3C799D006A262D /* Project object */;
+}
