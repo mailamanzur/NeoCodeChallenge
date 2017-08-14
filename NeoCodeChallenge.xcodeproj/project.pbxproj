@@ -16,6 +16,14 @@
 		063324C91F3C799D006A262D /* NeoCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324C81F3C799D006A262D /* NeoCodeChallengeTests.m */; };
 		063324D41F3C799D006A262D /* NeoCodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324D31F3C799D006A262D /* NeoCodeChallengeUITests.m */; };
 		06EF20421F409A2E00E6E317 /* NetworkingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20411F409A2E00E6E317 /* NetworkingConstants.m */; };
+		06EF20461F40F09600E6E317 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20451F40F09600E6E317 /* BaseMantleObject.m */; };
+		06EF20491F40F1E200E6E317 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20481F40F1E200E6E317 /* ApiNetworkingManager.m */; };
+		06EF204F1F40F3AE00E6E317 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF204E1F40F3AE00E6E317 /* NSString+Utils.m */; };
+		06EF20531F41170200E6E317 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20521F41170200E6E317 /* City.m */; };
+		06EF205A1F4130B700E6E317 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20591F4130B700E6E317 /* Weather.m */; };
+		06EF205D1F4133CE00E6E317 /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF205C1F4133CE00E6E317 /* Forecast.m */; };
+		06EF20601F4136E600E6E317 /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF205F1F4136E600E6E317 /* Coord.m */; };
+		06EF20631F4140F100E6E317 /* ForecastApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20621F4140F100E6E317 /* ForecastApiManager.m */; };
 		87EDB822718939018CC4798E /* libPods-NeoCodeChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDA49382729AF3E74CE882F /* libPods-NeoCodeChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +63,22 @@
 		063324D51F3C799D006A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06EF20401F409A2E00E6E317 /* NetworkingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConstants.h; sourceTree = "<group>"; };
 		06EF20411F409A2E00E6E317 /* NetworkingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConstants.m; sourceTree = "<group>"; };
+		06EF20441F40F09600E6E317 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
+		06EF20451F40F09600E6E317 /* BaseMantleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMantleObject.m; sourceTree = "<group>"; };
+		06EF20471F40F1E200E6E317 /* ApiNetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiNetworkingManager.h; sourceTree = "<group>"; };
+		06EF20481F40F1E200E6E317 /* ApiNetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiNetworkingManager.m; sourceTree = "<group>"; };
+		06EF204D1F40F3AE00E6E317 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		06EF204E1F40F3AE00E6E317 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		06EF20511F41170200E6E317 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		06EF20521F41170200E6E317 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		06EF20581F4130B700E6E317 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		06EF20591F4130B700E6E317 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		06EF205B1F4133CE00E6E317 /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
+		06EF205C1F4133CE00E6E317 /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
+		06EF205E1F4136E600E6E317 /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
+		06EF205F1F4136E600E6E317 /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
+		06EF20611F4140F100E6E317 /* ForecastApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastApiManager.h; sourceTree = "<group>"; };
+		06EF20621F4140F100E6E317 /* ForecastApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastApiManager.m; sourceTree = "<group>"; };
 		47BC29C16F26B5C8FD4978DF /* Pods-NeoCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoCodeChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeoCodeChallenge/Pods-NeoCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		5C5B38685751930107EDFF1E /* Pods-NeoCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeoCodeChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeoCodeChallenge/Pods-NeoCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		8DDA49382729AF3E74CE882F /* libPods-NeoCodeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NeoCodeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +205,8 @@
 		06EF203B1F4095AF00E6E317 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				06EF20541F4128B600E6E317 /* Forecast */,
+				06EF20501F41159900E6E317 /* CityForecast */,
 				06EF20431F40A9A900E6E317 /* Common */,
 			);
 			name = Models;
@@ -189,6 +215,10 @@
 		06EF203C1F4095B700E6E317 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				06EF20471F40F1E200E6E317 /* ApiNetworkingManager.h */,
+				06EF20481F40F1E200E6E317 /* ApiNetworkingManager.m */,
+				06EF20611F4140F100E6E317 /* ForecastApiManager.h */,
+				06EF20621F4140F100E6E317 /* ForecastApiManager.m */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -213,6 +243,8 @@
 		06EF203F1F4096A600E6E317 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				06EF204D1F40F3AE00E6E317 /* NSString+Utils.h */,
+				06EF204E1F40F3AE00E6E317 /* NSString+Utils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -220,8 +252,32 @@
 		06EF20431F40A9A900E6E317 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				06EF20441F40F09600E6E317 /* BaseMantleObject.h */,
+				06EF20451F40F09600E6E317 /* BaseMantleObject.m */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		06EF20501F41159900E6E317 /* CityForecast */ = {
+			isa = PBXGroup;
+			children = (
+				06EF20581F4130B700E6E317 /* Weather.h */,
+				06EF20591F4130B700E6E317 /* Weather.m */,
+				06EF20511F41170200E6E317 /* City.h */,
+				06EF20521F41170200E6E317 /* City.m */,
+				06EF205E1F4136E600E6E317 /* Coord.h */,
+				06EF205F1F4136E600E6E317 /* Coord.m */,
+			);
+			name = CityForecast;
+			sourceTree = "<group>";
+		};
+		06EF20541F4128B600E6E317 /* Forecast */ = {
+			isa = PBXGroup;
+			children = (
+				06EF205B1F4133CE00E6E317 /* Forecast.h */,
+				06EF205C1F4133CE00E6E317 /* Forecast.m */,
+			);
+			name = Forecast;
 			sourceTree = "<group>";
 		};
 		D13A5E90D1F0C9168A6C5944 /* Frameworks */ = {
@@ -426,10 +482,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06EF205A1F4130B700E6E317 /* Weather.m in Sources */,
+				06EF20491F40F1E200E6E317 /* ApiNetworkingManager.m in Sources */,
+				06EF205D1F4133CE00E6E317 /* Forecast.m in Sources */,
+				06EF20631F4140F100E6E317 /* ForecastApiManager.m in Sources */,
 				063324B61F3C799D006A262D /* ViewController.m in Sources */,
+				06EF20531F41170200E6E317 /* City.m in Sources */,
+				06EF20461F40F09600E6E317 /* BaseMantleObject.m in Sources */,
 				06EF20421F409A2E00E6E317 /* NetworkingConstants.m in Sources */,
 				063324B31F3C799D006A262D /* AppDelegate.m in Sources */,
 				063324B01F3C799D006A262D /* main.m in Sources */,
+				06EF204F1F40F3AE00E6E317 /* NSString+Utils.m in Sources */,
+				06EF20601F4136E600E6E317 /* Coord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

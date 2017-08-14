@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ForecastApiManager.h"
+#import "Forecast.h"
+#import "Weather.h"
+#import "City.h"
+#import "Coord.h"
 
 @interface ViewController ()
 
@@ -15,15 +20,29 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+     [[ForecastApiManager sharedManager]fetchForecast:^(id response) {
+  
+    self.forecastResponse = response;
+    Weather *weather = self.forecastResponse.weatherForecast[0];
+         
+    NSLog(@"%@",response);
+         
+         self.cityName.text = _forecastResponse.cityName;
+         self.Temperature.text = weather.mainDescription;
+         self.weatherDescription.text = weather.weatherDescription;
+//         
+         
+     } failure:^(NSString *errorMsg) {
+        
+     }];
+
+
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

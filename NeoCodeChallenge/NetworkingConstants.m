@@ -9,11 +9,11 @@
 #import "NetworkingConstants.h"
 
 # pragma mark - Base
-NSString *const kApiBaseURL = @"http://api-public.guidebox.com/v1.43/BR/rKJwmLEQB3qOouvHckEwjDrsGqKWpHgE/%@";
+NSString *const kApiBaseURL = @"http://api.openweathermap.org/data/2.5/%@";
 
-# pragma mark - Movies
-NSString *const kApiMoviesList = @"movies/all/%d/%d/all/all";
-NSString *const kApiMovieDetail = @"movie/%@";
+# pragma mark - Forecast
+NSString *const kApiKey = @"299455bf5a827f9660134f3d2e47af60";
+
 
 # pragma mark - HTTP Status code
 NSString *const kBadRequestStatus = @"400";

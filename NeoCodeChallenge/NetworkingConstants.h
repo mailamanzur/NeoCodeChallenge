@@ -10,10 +10,8 @@
 
 //Base
 extern NSString *const kApiBaseURL;
+extern NSString *const kApiKey;
 
-//Movies
-extern NSString *const kApiMoviesList;
-extern NSString *const kApiMovieDetail;
 
 //HTTP Status code
 extern NSString *const kBadRequestStatus;

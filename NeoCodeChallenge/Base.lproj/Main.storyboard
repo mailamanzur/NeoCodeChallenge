@@ -1,26 +1,79 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Qsr-VT-ziG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="le8-kN-mTe">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="Qsr-VT-ziG" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="2xu-bW-ePM"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ct-Jq-L7h"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="fpL-U3-9GJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Berlin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWL-sA-FOA">
+                                <rect key="frame" x="69" y="185" width="246" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Jhj-v0-eDY"/>
+                                    <constraint firstAttribute="width" constant="246" id="hDK-GJ-jzE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKs-BQ-fwv">
+                                <rect key="frame" x="69" y="222" width="246" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="0vJ-HH-rVv"/>
+                                    <constraint firstAttribute="height" constant="29" id="2ap-0P-WNm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agu-QN-Ump">
+                                <rect key="frame" x="69" y="296" width="246" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="IFU-aJ-9v0"/>
+                                    <constraint firstAttribute="width" constant="246" id="oPn-HO-7BF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cWL-sA-FOA" secondAttribute="trailing" constant="60" id="0Jv-d5-70W"/>
+                            <constraint firstItem="agu-QN-Ump" firstAttribute="leading" secondItem="fpL-U3-9GJ" secondAttribute="leading" constant="69" id="B30-xb-TWh"/>
+                            <constraint firstItem="cWL-sA-FOA" firstAttribute="top" secondItem="2xu-bW-ePM" secondAttribute="bottom" constant="165" id="E8A-xK-bmB"/>
+                            <constraint firstItem="cWL-sA-FOA" firstAttribute="leading" secondItem="fpL-U3-9GJ" secondAttribute="leading" constant="69" id="TIb-OB-5LI"/>
+                            <constraint firstAttribute="trailing" secondItem="agu-QN-Ump" secondAttribute="trailing" constant="60" id="Y90-ms-Ldu"/>
+                            <constraint firstItem="agu-QN-Ump" firstAttribute="top" secondItem="eKs-BQ-fwv" secondAttribute="bottom" constant="45" id="b2P-zU-BsG"/>
+                            <constraint firstItem="eKs-BQ-fwv" firstAttribute="leading" secondItem="fpL-U3-9GJ" secondAttribute="leading" constant="69" id="fBu-mD-wgR"/>
+                            <constraint firstAttribute="trailing" secondItem="eKs-BQ-fwv" secondAttribute="trailing" constant="60" id="fTL-Ff-BPG"/>
+                            <constraint firstItem="eKs-BQ-fwv" firstAttribute="top" secondItem="cWL-sA-FOA" secondAttribute="bottom" constant="8" id="vpf-nh-tQx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Temperature" destination="eKs-BQ-fwv" id="VmI-3d-FR2"/>
+                        <outlet property="cityName" destination="cWL-sA-FOA" id="EHL-zW-k53"/>
+                        <outlet property="weatherDescription" destination="agu-QN-Ump" id="vLC-ho-Rbi"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rvi-6p-S6Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="137.18140929535232"/>
         </scene>
     </scenes>
 </document>
