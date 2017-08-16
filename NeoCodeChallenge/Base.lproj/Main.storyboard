@@ -27,7 +27,7 @@
                                     <constraint firstAttribute="height" constant="29" id="Jhj-v0-eDY"/>
                                     <constraint firstAttribute="width" constant="246" id="hDK-GJ-jzE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -37,17 +37,17 @@
                                     <constraint firstAttribute="width" constant="246" id="0vJ-HH-rVv"/>
                                     <constraint firstAttribute="height" constant="29" id="2ap-0P-WNm"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agu-QN-Ump">
-                                <rect key="frame" x="69" y="296" width="246" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlr-3l-Bda">
+                                <rect key="frame" x="64.5" y="259" width="246" height="29"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="IFU-aJ-9v0"/>
-                                    <constraint firstAttribute="width" constant="246" id="oPn-HO-7BF"/>
+                                    <constraint firstAttribute="height" constant="29" id="7Tl-P3-6hS"/>
+                                    <constraint firstAttribute="width" constant="246" id="JQV-uI-iZk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.99607843139999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -55,11 +55,10 @@
                         <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="cWL-sA-FOA" secondAttribute="trailing" constant="60" id="0Jv-d5-70W"/>
-                            <constraint firstItem="agu-QN-Ump" firstAttribute="leading" secondItem="fpL-U3-9GJ" secondAttribute="leading" constant="69" id="B30-xb-TWh"/>
+                            <constraint firstItem="Vlr-3l-Bda" firstAttribute="centerX" secondItem="fpL-U3-9GJ" secondAttribute="centerX" id="1vb-Xo-Yng"/>
                             <constraint firstItem="cWL-sA-FOA" firstAttribute="top" secondItem="2xu-bW-ePM" secondAttribute="bottom" constant="165" id="E8A-xK-bmB"/>
+                            <constraint firstItem="Vlr-3l-Bda" firstAttribute="top" secondItem="eKs-BQ-fwv" secondAttribute="bottom" constant="8" id="Rm2-QM-sxe"/>
                             <constraint firstItem="cWL-sA-FOA" firstAttribute="leading" secondItem="fpL-U3-9GJ" secondAttribute="leading" constant="69" id="TIb-OB-5LI"/>
-                            <constraint firstAttribute="trailing" secondItem="agu-QN-Ump" secondAttribute="trailing" constant="60" id="Y90-ms-Ldu"/>
-                            <constraint firstItem="agu-QN-Ump" firstAttribute="top" secondItem="eKs-BQ-fwv" secondAttribute="bottom" constant="45" id="b2P-zU-BsG"/>
                             <constraint firstItem="eKs-BQ-fwv" firstAttribute="leading" secondItem="fpL-U3-9GJ" secondAttribute="leading" constant="69" id="fBu-mD-wgR"/>
                             <constraint firstAttribute="trailing" secondItem="eKs-BQ-fwv" secondAttribute="trailing" constant="60" id="fTL-Ff-BPG"/>
                             <constraint firstItem="eKs-BQ-fwv" firstAttribute="top" secondItem="cWL-sA-FOA" secondAttribute="bottom" constant="8" id="vpf-nh-tQx"/>
@@ -68,7 +67,7 @@
                     <connections>
                         <outlet property="Temperature" destination="eKs-BQ-fwv" id="VmI-3d-FR2"/>
                         <outlet property="cityName" destination="cWL-sA-FOA" id="EHL-zW-k53"/>
-                        <outlet property="weatherDescription" destination="agu-QN-Ump" id="vLC-ho-Rbi"/>
+                        <outlet property="mainDescription" destination="Vlr-3l-Bda" id="KOc-ss-tXW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rvi-6p-S6Q" userLabel="First Responder" sceneMemberID="firstResponder"/>

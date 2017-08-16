@@ -11,6 +11,7 @@
 #import "Forecast.h"
 #import "Weather.h"
 #import "City.h"
+#import "MainInfo.h"
 #import "Coord.h"
 
 @interface ViewController ()
@@ -31,9 +32,11 @@
     NSLog(@"%@",response);
          
          self.cityName.text = _forecastResponse.cityName;
-         self.Temperature.text = weather.mainDescription;
-         self.weatherDescription.text = weather.weatherDescription;
-//         
+         self.mainDescription.text = weather.mainDescription;
+         
+         NSNumber  *celsius = @([_forecastResponse.mainInfo.temp integerValue] - 273.);
+         
+         self.Temperature.text = [NSString stringWithFormat:@"%@\u00B0C", celsius];
          
      } failure:^(NSString *errorMsg) {
         

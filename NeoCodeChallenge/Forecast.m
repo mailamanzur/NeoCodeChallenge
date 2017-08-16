@@ -8,6 +8,7 @@
 
 #import "Forecast.h"
 #import "Weather.h"
+#import "MainInfo.h"
 #import "Coord.h"
 
 @implementation Forecast
@@ -16,6 +17,7 @@
     return @{
               @"coordForecast":@"coord",
               @"cityName":  @"name" ,
+              @"mainInfo": @"main",
               @"weatherForecast":@"weather"
              };
 }
@@ -27,6 +29,10 @@
 
 + (NSValueTransformer *)coordForecastJSONTransformer {
     return [MTLJSONAdapter dictionaryTransformerWithModelClass:[Coord class]];
+}
+
++ (NSValueTransformer *)mainInfoForecastJSONTransformer {
+    return [MTLJSONAdapter dictionaryTransformerWithModelClass:[MainInfo class]];
 }
 
 

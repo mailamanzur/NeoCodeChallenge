@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "Forecast.h"
+#import "MainInfo.h"
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *cityName;
 @property (weak, nonatomic) IBOutlet UILabel *Temperature;
 @property (weak, nonatomic) IBOutlet UILabel *mainDescription;
-@property (weak, nonatomic) IBOutlet UILabel *weatherDescription;
 @property (strong,nonatomic)Forecast *forecastResponse;
+
 
 @end
 

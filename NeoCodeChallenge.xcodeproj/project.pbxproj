@@ -15,6 +15,7 @@
 		063324BE1F3C799D006A262D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063324BC1F3C799D006A262D /* LaunchScreen.storyboard */; };
 		063324C91F3C799D006A262D /* NeoCodeChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324C81F3C799D006A262D /* NeoCodeChallengeTests.m */; };
 		063324D41F3C799D006A262D /* NeoCodeChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 063324D31F3C799D006A262D /* NeoCodeChallengeUITests.m */; };
+		0677D0261F44FF31005A1A7A /* MainInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0677D0251F44FF31005A1A7A /* MainInfo.m */; };
 		06EF20421F409A2E00E6E317 /* NetworkingConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20411F409A2E00E6E317 /* NetworkingConstants.m */; };
 		06EF20461F40F09600E6E317 /* BaseMantleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20451F40F09600E6E317 /* BaseMantleObject.m */; };
 		06EF20491F40F1E200E6E317 /* ApiNetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EF20481F40F1E200E6E317 /* ApiNetworkingManager.m */; };
@@ -61,6 +62,8 @@
 		063324CF1F3C799D006A262D /* NeoCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		063324D31F3C799D006A262D /* NeoCodeChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeoCodeChallengeUITests.m; sourceTree = "<group>"; };
 		063324D51F3C799D006A262D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0677D0241F44FF31005A1A7A /* MainInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInfo.h; sourceTree = "<group>"; };
+		0677D0251F44FF31005A1A7A /* MainInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInfo.m; sourceTree = "<group>"; };
 		06EF20401F409A2E00E6E317 /* NetworkingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingConstants.h; sourceTree = "<group>"; };
 		06EF20411F409A2E00E6E317 /* NetworkingConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingConstants.m; sourceTree = "<group>"; };
 		06EF20441F40F09600E6E317 /* BaseMantleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMantleObject.h; sourceTree = "<group>"; };
@@ -267,6 +270,8 @@
 				06EF20521F41170200E6E317 /* City.m */,
 				06EF205E1F4136E600E6E317 /* Coord.h */,
 				06EF205F1F4136E600E6E317 /* Coord.m */,
+				0677D0241F44FF31005A1A7A /* MainInfo.h */,
+				0677D0251F44FF31005A1A7A /* MainInfo.m */,
 			);
 			name = CityForecast;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				06EF20491F40F1E200E6E317 /* ApiNetworkingManager.m in Sources */,
 				06EF205D1F4133CE00E6E317 /* Forecast.m in Sources */,
 				06EF20631F4140F100E6E317 /* ForecastApiManager.m in Sources */,
+				0677D0261F44FF31005A1A7A /* MainInfo.m in Sources */,
 				063324B61F3C799D006A262D /* ViewController.m in Sources */,
 				06EF20531F41170200E6E317 /* City.m in Sources */,
 				06EF20461F40F09600E6E317 /* BaseMantleObject.m in Sources */,
